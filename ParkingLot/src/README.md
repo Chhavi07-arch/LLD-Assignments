@@ -14,6 +14,9 @@
 - Clean separation of concerns
 
 
+## Class Diagram
+
+```text
 +----------------------+
 |     ParkingLotService|
 +----------------------+
@@ -103,7 +106,7 @@
 | slot                 |
 | distance             |
 +----------------------+
-
+```
 
 
 Design follows:
