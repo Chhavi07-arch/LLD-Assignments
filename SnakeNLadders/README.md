@@ -13,7 +13,9 @@
 
 ## How to Run
 Run Main.java
+## Class Diagram
 
+```text
 +----------------------+
 |        Game          |
 +----------------------+
@@ -47,8 +49,6 @@ Run Main.java
 | + initializeBoard()  |
 | + getFinalPosition() |
 +----------+-----------+
-           |
-     (logical ownership)
            |
      -----------------
      |               |
@@ -92,7 +92,7 @@ Run Main.java
 +----------------+  +--------------------+
 | applyRule()    |  | applyRule()        |
 +----------------+  +--------------------+
-
+```
 
 ## Design Patterns
 
